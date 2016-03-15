@@ -25,5 +25,5 @@ app.get('/', function(req, res) {
 // Launch app -------------------
 //app.listen(port);
 app.listen(8080, '10.134.0.227');
-console.log("*** server running");
+console.log("*** server running on private server");
 exports = module.exports = app;
