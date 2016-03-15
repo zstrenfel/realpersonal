@@ -1,0 +1,42 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "OkayVacay",
+      "tags": "UI/UX, FrontEnd",
+      "imgPath": "./imgs/projectImgs/okay.png",
+      "body":"A Ruby On Rails and React web application designed to help the user find the cheapest options for travel avaliable in their budget and aligned with their interests. Created at Launch Hackathon 2016; hosted on Heroku and uses the Expedia API.",
+      "url": "https://github.com/zstrenfel/planit"
+    },
+    {
+      "id": 2,
+      "title": "Planit",
+      "tags": "UI/UX, FrontEnd, BackEnd",
+      "imgPath": "./imgs/projectImgs/planit.png",
+      "body":"A Ruby on Rails and Javascript (JQuery) web application designed to help users coordinate between friends and plan a travel itinerary. Created for CS169, Software Engineering; hosted on Heroku and uses the Google Maps API.",
+      "url": "https://github.com/zstrenfel/VacationElation"
+    }
+  ],
+  "visuals" : [
+    {
+      "id": 1,
+      "title": "Logos",
+      "url": "./imgs/projectImgs/logos.png"
+    },
+    {
+      "id": 2,
+      "title": "Print",
+      "url": null
+    },
+    {
+      "id": 3,
+      "title": "UI/UX",
+      "url": null
+    },
+    {
+      "id": 4,
+      "title": "Other",
+      "url": "./imgs/projectImgs/other.png"
+    },
+  ]
+}

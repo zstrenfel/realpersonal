@@ -1,0 +1,76 @@
+.splash {
+  @extend .section;
+  overflow: hidden;
+  height: 500px;
+  padding: 0;
+  position: relative;
+  border-radius: 5px;
+
+  .text, .image {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .image-container {
+    @include omega();
+    text-align: center;
+    overflow: hidden;
+    height: 100%;
+
+    img {
+      height: 90%;
+      width: auto;
+      opacity: .9;
+    }
+  }
+
+  h1 {
+    font-size: 3em;
+    font-weight: 400;
+    // color: $accent-orange;
+  }
+
+  h2 {
+    color: lighten($body-font, 10%);
+    font-weight: 300;
+  }
+
+  p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: lighten($body-font, 10%);
+    font-weight: 300;
+  }
+}
+
+.contact {
+    @include span-columns(12);
+    overflow: auto;
+
+    ul {
+      width: 100%;
+      text-align: center;
+      list-style-type: none;
+      padding: 0 10px;;
+      margin: 0 auto;
+    }
+
+    li {
+      float: left;
+      margin-right: 15px;
+    }
+
+    li img {
+      height: 50px;
+      width: auto;
+      opacity: .5;
+
+      &:hover {
+        opacity: .75;
+        transition: opacity 400ms ease-in;
+        cursor: pointer;
+      }
+    }
+}
+

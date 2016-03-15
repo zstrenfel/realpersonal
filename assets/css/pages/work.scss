@@ -1,0 +1,125 @@
+.work {
+  @extend .section;
+  height: auto;
+  background-color: $background-grey;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+
+.projects, .visuals {
+  @include span-columns(10);
+  @include shift(1);
+}
+
+.visuals {
+  margin-bottom: 30px;
+  background-color: #fff;
+  border-radius: 5px;
+  text-align: center;
+
+  ul {
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    color: $disabled-text;
+    font-weight: 300;
+    border-bottom: 1px solid darken($background-grey, 0%);
+    padding-bottom: 10px;
+
+    li {
+      display: inline;
+      margin: 0 30px;
+      cursor: pointer;
+
+      &:hover {
+        color: darken($disabled-text, 30%);
+        transition: color 300ms ease-in;
+      }
+    }
+
+    li.active {
+      font-weight: 400;
+      color: $secondary-header;
+    }
+  }
+
+  img {
+    width: 90%;
+    height: auto;
+  }
+}
+.project {
+  @include span-columns(12);
+  overflow: hidden;
+  height: 300px;
+  margin: 30px auto 0;
+  background-color: #fff;
+  border-radius: 5px;
+
+  p {
+    margin: 10px 0;
+    font-size: 1em;
+    color: $body-font;
+    font-weight: 300;
+  }
+
+  aside {
+    font-style: italic;
+    font-size: .8em;
+    color: $disabled-text;
+  }
+
+  &:last-child {
+    margin-bottom: 30px;
+  }
+}
+
+.project-img {
+    overflow: hidden;
+    padding: 10px;
+    text-align: center;
+    img {
+      height: auto;
+      width: 100%;
+    }
+}
+
+.project-info {
+  padding: 20px;
+  height: 100%;
+
+
+  h1 {
+    font-weight: 400;
+  }
+}
+
+.project.right {
+  @include row($direction: RTL);
+  text-align: right;
+  .project-img {
+    @include span-columns(6);
+    @extend .project-img;
+  }
+  .project-info {
+    @include span-columns(6);
+    @extend .project-info
+
+  }
+
+}
+.project.left {
+  @include reset-layout-direction;
+  .project-img {
+    @include span-columns(6);
+    @extend .project-img;
+  }
+  .project-info {
+    @include span-columns(6);
+    @extend .project-info
+  }
+}
+
+
+
