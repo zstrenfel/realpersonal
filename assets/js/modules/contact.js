@@ -11,7 +11,7 @@ class Contact extends React.Component{
           <li><a href="https://twitter.com/DuckyZach" target="_blank"><img src={'./imgs/icons/twitter-with-circle.svg'} /></a></li>
           <li><a href="mailto:zwstrenfel@gmail.com" target="_blank"><img src={'./imgs/icons/closed-envelope-circle.svg'} /></a></li>
         </ul>
-        <div className="wip"> {emoji.get("construction")} As is life, this site is always a work-in-progress. View the repository <a href="" target="_blank">here</a> {emoji.get("construction")}</div>
+        <div className="wip"> {emoji.get("construction")} As is life, this site is always a work-in-progress. View the repository <a href="https://github.com/zstrenfel/realpersonal" target="_blank">here</a> {emoji.get("construction")}</div>
       </footer>
     )
   }
