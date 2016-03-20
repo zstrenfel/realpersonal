@@ -3,40 +3,80 @@
     {
       "id": 1,
       "title": "OkayVacay",
+      "title_url": "http://okayvacay-client.herokuapp.com/",
       "tags": "UI/UX, FrontEnd",
       "imgPath": "./imgs/projectImgs/okay.png",
       "body":"A Ruby On Rails and React web application designed to help the user find the cheapest options for travel avaliable in their budget and aligned with their interests. Created at Launch Hackathon 2016; hosted on Heroku and uses the Expedia API.",
-      "url": "https://github.com/zstrenfel/planit"
+      "url": "https://github.com/zstrenfel/VacationElation"
     },
     {
       "id": 2,
       "title": "Planit",
+      "title_url": "http://planit-169.herokuapp.com/",
       "tags": "UI/UX, FrontEnd, BackEnd",
       "imgPath": "./imgs/projectImgs/planit.png",
       "body":"A Ruby on Rails and Javascript (JQuery) web application designed to help users coordinate between friends and plan a travel itinerary. Created for CS169, Software Engineering; hosted on Heroku and uses the Google Maps API.",
-      "url": "https://github.com/zstrenfel/VacationElation"
+      "url": "https://github.com/zstrenfel/planit"
     }
   ],
-  "visuals" : [
-    {
-      "id": 1,
-      "title": "Logos",
-      "url": "./imgs/projectImgs/logos.png"
-    },
-    {
-      "id": 2,
-      "title": "Print",
-      "url": null
-    },
-    {
-      "id": 3,
-      "title": "UI/UX",
-      "url": null
-    },
-    {
-      "id": 4,
-      "title": "Other",
-      "url": "./imgs/projectImgs/other.png"
-    },
-  ]
+  "visuals" : {
+    "Logos": [
+      {
+      "title": "Summer Edge",
+      "url": "./imgs/projectImgs/logos/edge.jpg",
+      "class": null
+      },
+      {
+      "title": "Gainz",
+      "url": "./imgs/projectImgs/logos/gainz.jpg",
+      "class": null
+      },
+      {
+      "title": "Rhetoric Society",
+      "url": "./imgs/projectImgs/logos/rhet.jpg",
+      "class": null
+      },
+      {
+      "title": "Suasage Tier",
+      "url": "./imgs/projectImgs/logos/sausage.jpg",
+      "class": null
+      },
+      {
+      "title": "Paramount Decisions 1",
+      "url": "./imgs/projectImgs/logos/pd1.jpg",
+      "class": null
+      },
+      {
+      "title": "Paramount Decisions 2",
+      "url": "./imgs/projectImgs/logos/pd2.jpg",
+      "class": "full"
+      },
+    ],
+    "Print": [
+    ],
+    "UI/UX": [
+    ],
+    "Other": [
+      {
+      "title": "Bear",
+      "url": "./imgs/projectImgs/other/bear.jpg",
+      "class": "other"
+      },
+      {
+      "title": "Geofilter",
+      "url": "./imgs/projectImgs/other/geo.png",
+      "class": "other"
+      },
+      {
+      "title": "Racoon",
+      "url": "./imgs/projectImgs/other/racoon.jpg",
+      "class":"other"
+      },
+      {
+      "title": "Spaceman",
+      "url": "./imgs/projectImgs/other/space.jpg",
+      "class": "other"
+      }
+    ]
+  }
 }

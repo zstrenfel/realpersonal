@@ -12,7 +12,7 @@ class Project extends React.Component {
               <img src={this.props.data.imgPath} />
             </div>
             <div className="project-info">
-              <h1> {this.props.data.title} </h1>
+              <h1><a href={this.props.data.title_url}> {this.props.data.title} </a></h1>
               {this.props.data.tags}
               <p> {this.props.data.body} </p>
               <aside> View the repository <a href={this.props.data.url} target="_blank">here</a></aside>

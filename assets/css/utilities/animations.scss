@@ -16,20 +16,37 @@
   animation-duration: 1.5s;
 }
 
-.example-enter {
+
+@keyframes slide-right {
+  from {
+    opacity: 0;
+    left: 100%;
+  }
+
+  to {
+    opacity: 1;
+    left: 0;
+
+  }
+}
+
+
+.swipe-appear {
   opacity: 0.01;
+  transition-delay: 1s;
+  transition: opacity 600ms ease-in;
 }
 
-.example-enter.example-enter-active {
-  opacity: 1;
-  transition: opacity 500ms ease-in;
-}
-
-.example-leave {
+.swipe-appear.swipe-appear-active {
   opacity: 1;
 }
 
-.example-leave.example-leave-active {
+.swipe-leave {
+  opacity: 1;
+  transition: opacity 100ms ease-in;
+
+}
+
+.swipe-leave.swipe-leave-active {
   opacity: 0.01;
-  transition: opacity 400ms ease-in;
 }

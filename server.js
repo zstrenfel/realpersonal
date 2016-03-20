@@ -8,7 +8,7 @@ var path                = require('path');
 
 // Environment ------------------
 var env = process.env.NODE_ENV || 'development';
-//var port = process.env.PORT || 8000;
+var port = process.env.PORT || 8000;
 
 // Express Setup ----------------
 var app = express();
@@ -24,6 +24,6 @@ app.get('/', function(req, res) {
 
 // Launch app -------------------
 //app.listen(port);
-app.listen(8080, '10.134.0.227');
-console.log("*** server running on private server");
+app.listen(port);
+console.log("*** server running");
 exports = module.exports = app;

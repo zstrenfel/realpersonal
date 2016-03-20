@@ -7,16 +7,32 @@
 }
 
 
-.projects, .visuals {
+.projects, .visuals, .section-title {
   @include span-columns(10);
   @include shift(1);
+}
+
+.section-title {
+  overflow: auto;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  position: relative;
+
+  h1 {
+    font-size: 2em;
+    font-weight: 300;
+    color: lighten($disabled-text, 20%);
+  }
+
 }
 
 .visuals {
   margin-bottom: 30px;
   background-color: #fff;
   border-radius: 5px;
-  text-align: center;
+  overflow: auto;
+  height: auto;
+  padding: 10px;
 
   ul {
     padding: 0;
@@ -44,16 +60,54 @@
     }
   }
 
-  img {
-    width: 90%;
+  .wip {
+    @include span-columns(10);
+    @include shift(1);
+    text-align: center;
     height: auto;
+    overflow: auto;
+    background-color: lighten($background-grey, 2%);
+    border-radius: 7px;
+    border: 1.5px solid $background-grey;
+    color: $disabled-text;
+    padding: 10px;
   }
 }
+
+.visual-container {
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+
+  .element {
+    flex-grow: 1;
+    text-align: center;
+    height: 200px;
+    width: 50%;
+    padding: 5px;
+
+    img {
+      height: 100%;
+      width: auto;
+    }
+
+    &.full {
+      width:100%;
+    }
+
+    &.other {
+      height: 300px;
+    }
+  }
+
+}
+
+
 .project {
   @include span-columns(12);
   overflow: hidden;
   height: 300px;
-  margin: 30px auto 0;
+  margin-bottom: 30px;
   background-color: #fff;
   border-radius: 5px;
 
@@ -68,10 +122,6 @@
     font-style: italic;
     font-size: .8em;
     color: $disabled-text;
-  }
-
-  &:last-child {
-    margin-bottom: 30px;
   }
 }
 
@@ -92,7 +142,16 @@
 
   h1 {
     font-weight: 400;
+    a {
+      color: $main-header;
+
+      &:hover {
+        color: darken($main-header, 10%);
+      }
+    }
   }
+
+
 }
 
 .project.right {
