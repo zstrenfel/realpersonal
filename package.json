@@ -49,6 +49,7 @@
   },
   "dependencies": {
     "express": "^4.13.4",
+    "jquery": "^2.2.2",
     "react-addons-transition-group": "^0.14.7",
     "socket.io": "latest"
   }

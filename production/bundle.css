@@ -43,7 +43,8 @@ p {
 
 .content {
   overflow: auto;
-  width: 100%; }
+  width: 100%;
+  position: relative; }
 
 .section, .resume, .splash, .work {
   float: left;
@@ -90,10 +91,10 @@ p {
 
 a {
   text-decoration: none;
-  color: #22A7F0; }
+  color: #22A7F0;
+  transition: color 300ms ease-in; }
   a:hover {
-    color: #0e8cd1;
-    transition: color 300ms ease-in; }
+    color: #0e8cd1; }
 
 footer.contact {
   width: inherit;
@@ -156,6 +157,34 @@ footer.contact {
 .swipe-leave.swipe-leave-active {
   opacity: 0.01; }
 
+.top-nav {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.9);
+  z-index: 1;
+  text-align: right; }
+  .top-nav ul {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 82.94039%;
+    margin-left: 8.5298%;
+    padding: 0; }
+    .top-nav ul:last-child {
+      margin-right: 0; }
+  .top-nav li {
+    display: inline;
+    text-decoration: none;
+    margin: 5px 10px; }
+  .top-nav a {
+    color: #8D8D8D;
+    cursor: pointer; }
+    .top-nav a:hover {
+      color: #5a5a5a; }
+
 .resume-section, .resume .experience, .resume .skills, .resume .course-work {
   float: left;
   display: block;
@@ -214,7 +243,8 @@ footer.contact {
   height: 500px;
   padding: 0;
   position: relative;
-  border-radius: 5px; }
+  border-radius: 5px;
+  margin-top: 50px; }
   .splash .text, .splash .image {
     position: relative;
     top: 50%;
@@ -230,10 +260,13 @@ footer.contact {
       opacity: .9; }
   .splash h1 {
     font-size: 3em;
-    font-weight: 400; }
+    font-weight: 400;
+    line-height: 1em;
+    margin-bottom: 5px; }
   .splash h2 {
     color: #929292;
-    font-weight: 300; }
+    font-weight: 300;
+    line-height: 1em; }
   .splash p {
     font-size: 1.2em;
     margin-bottom: 10px;
@@ -260,10 +293,10 @@ footer.contact {
   .contact li img {
     height: 50px;
     width: auto;
-    opacity: .5; }
+    opacity: .5;
+    transition: opacity 300ms ease-in; }
     .contact li img:hover {
       opacity: .75;
-      transition: opacity 400ms ease-in;
       cursor: pointer; }
 
 .work {
@@ -276,8 +309,7 @@ footer.contact {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 82.94039%;
-  margin-left: 8.5298%; }
+  width: 100%; }
   .projects:last-child, .visuals:last-child, .section-title:last-child {
     margin-right: 0; }
 
@@ -363,6 +395,8 @@ footer.contact {
   border-radius: 5px; }
   .project:last-child {
     margin-right: 0; }
+  .project:last-child {
+    margin-bottom: 0; }
   .project p {
     margin: 10px 0;
     font-size: 1em;
@@ -379,7 +413,7 @@ footer.contact {
   text-align: center; }
   .project-img img, .project.right .project-img img, .project.left .project-img img {
     height: auto;
-    width: 100%; }
+    width: 83%; }
 
 .project-info, .project.right .project-info, .project.left .project-info {
   padding: 20px;
@@ -393,7 +427,7 @@ footer.contact {
 
 .project.right {
   display: block;
-  text-align: right; }
+  padding-left: 20px; }
   .project.right::after {
     clear: both;
     content: "";

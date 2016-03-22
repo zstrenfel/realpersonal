@@ -5,7 +5,7 @@ import randomColor from 'randomcolor'
 class Splash extends React.Component{
   render() {
    return (
-      <div className="splash">
+      <div className="splash" id="about">
         <div className="half-column image-container">
           <img src={'./imgs/me.png'} />
         </div>

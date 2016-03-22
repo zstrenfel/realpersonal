@@ -8,7 +8,7 @@ var path                = require('path');
 
 // Environment ------------------
 var env = process.env.NODE_ENV || 'development';
-var port = process.env.PORT || 8080;
+var port = process.env.PORT || 8000;
 
 // Express Setup ----------------
 var app = express();
@@ -18,7 +18,7 @@ var router = express.Router();
 app.use(express.static(__dirname + '/production'));
 
 // Routes -----------------------
-app.get('/', function(req, res) {
+app.get('*', function(req, res) {
     res.sendFile(path.join(__dirname, './production', 'index.html'));
 });
 

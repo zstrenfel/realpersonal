@@ -37,6 +37,7 @@ p {
 .content {
   overflow: auto;
   width: 100%;
+  position: relative;
 }
 
 .section {
@@ -86,10 +87,9 @@ p {
 a {
   text-decoration: none;
   color: $link;
-
+  transition: color 300ms ease-in;
   &:hover {
     color: darken($link, 10%);
-    transition: color 300ms ease-in;
   }
 }
 

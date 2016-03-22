@@ -8,8 +8,7 @@
 
 
 .projects, .visuals, .section-title {
-  @include span-columns(10);
-  @include shift(1);
+  @include span-columns(12);
 }
 
 .section-title {
@@ -111,6 +110,9 @@
   background-color: #fff;
   border-radius: 5px;
 
+  &:last-child {
+    margin-bottom: 0;
+  }
   p {
     margin: 10px 0;
     font-size: 1em;
@@ -131,7 +133,7 @@
     text-align: center;
     img {
       height: auto;
-      width: 100%;
+      width: 83%;
     }
 }
 
@@ -156,7 +158,7 @@
 
 .project.right {
   @include row($direction: RTL);
-  text-align: right;
+  padding-left: 20px;
   .project-img {
     @include span-columns(6);
     @extend .project-img;

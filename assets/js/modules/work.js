@@ -23,11 +23,11 @@ class Work extends React.Component {
     let colorBlock = {backgroundColor: randomColor()};
     return (
       <div className="work">
-        <div className="section-title"><h1>Projects</h1></div>
+        <div className="section-title" id="projects"><h1>Projects</h1></div>
         <div className="projects">
           {projects}
         </div>
-        <div className="section-title"><h1>Visuals</h1></div>
+        <div className="section-title" id="visuals"><h1>Visual Design</h1></div>
           <Visuals data={data.visuals}/>
       </div>
     )
