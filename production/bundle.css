@@ -116,7 +116,7 @@ footer.contact {
     border-top: 1px solid #F3F3F3;
     position: absolute;
     width: 100%;
-    bottom: 0;
+    bottom: 1px;
     background-color: #fff;
     height: 45px;
     color: #454545;
