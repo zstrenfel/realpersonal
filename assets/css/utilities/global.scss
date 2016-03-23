@@ -6,7 +6,7 @@ html, body {
   font-family: $font-family;
   color: $secondary-font;
   vertical-align: baseline;
-  background-color: #F3F3F3;
+  background-color: $background-grey;
 }
 
 
@@ -99,6 +99,7 @@ footer.contact {
   height: 170px;
   background-color: #fff;
   position: relative;
+  text-align: center;
 
   ul {
     display: inline-block;
@@ -117,6 +118,7 @@ footer.contact {
   }
 
   .wip {
+    border-top: 1px solid $line-gray;
     position: absolute;
     width: 100%;
     bottom: 0;

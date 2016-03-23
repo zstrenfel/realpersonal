@@ -6,7 +6,7 @@ class Nav extends React.Component {
   navigateTo(e) {
     e.preventDefault();
     let target = e.target.innerHTML.toLowerCase()
-    $('html,body').animate({scrollTop: $("#"+target).offset().top - 60},'slow');
+    $('html,body').animate({scrollTop: $("#"+target).offset().top - 60},400);
   }
   render() {
     return (

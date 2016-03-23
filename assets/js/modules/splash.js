@@ -13,8 +13,8 @@ class Splash extends React.Component{
           <h2>Hello, I'm </h2>
            <h1>Zach Strenfel</h1>
            <p>
-              Currently a senior @ UC Berkeley studying Media Studies,
-              with a passion for <b> Front-End Web Development</b>, <b>Design</b>, and <b>UI/UX</b>.
+              Currently a senior @ UC Berkeley studying Media Studies; house plant enthusiest with an
+              interest in <b> Front-End Web Development</b>, <b>Design</b>, and <b>UI/UX</b>.
           </p>
           <div className="contact">
             <ul>

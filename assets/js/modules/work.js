@@ -27,7 +27,7 @@ class Work extends React.Component {
         <div className="projects">
           {projects}
         </div>
-        <div className="section-title" id="visuals"><h1>Visual Design</h1></div>
+        <div className="section-title" id="visuals"><h1>Design</h1></div>
           <Visuals data={data.visuals}/>
       </div>
     )

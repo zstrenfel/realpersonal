@@ -12,7 +12,7 @@ html, body {
   font-family: "Open Sans", Helvetica, sans-serif;
   color: #454545;
   vertical-align: baseline;
-  background-color: #F3F3F3; }
+  background-color: #fff; }
 
 h1, h2, h3, h4, h5 {
   font-family: "Open Sans", Helvetica, sans-serif;
@@ -100,7 +100,8 @@ footer.contact {
   width: inherit;
   height: 170px;
   background-color: #fff;
-  position: relative; }
+  position: relative;
+  text-align: center; }
   footer.contact ul {
     display: inline-block;
     margin: 0 auto 0;
@@ -112,10 +113,11 @@ footer.contact {
     width: 35px;
     height: auto; }
   footer.contact .wip {
+    border-top: 1px solid #F3F3F3;
     position: absolute;
     width: 100%;
     bottom: 0;
-    background-color: #F3F3F3;
+    background-color: #fff;
     height: 45px;
     color: #454545;
     line-height: 45px;
@@ -163,27 +165,22 @@ footer.contact {
   top: 0;
   left: 0;
   height: 50px;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 0.95);
   z-index: 1;
-  text-align: right; }
+  text-align: center; }
   .top-nav ul {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 82.94039%;
-    margin-left: 8.5298%;
     padding: 0; }
-    .top-nav ul:last-child {
-      margin-right: 0; }
   .top-nav li {
     display: inline;
     text-decoration: none;
-    margin: 5px 10px; }
+    margin: 5px 20px; }
   .top-nav a {
     color: #8D8D8D;
-    cursor: pointer; }
+    cursor: pointer;
+    font-weight: 300; }
     .top-nav a:hover {
-      color: #5a5a5a; }
+      color: #5a5a5a;
+      font-weight: 400; }
 
 .resume-section, .resume .experience, .resume .skills, .resume .course-work {
   float: left;
@@ -198,17 +195,30 @@ footer.contact {
 .resume {
   height: auto;
   background-color: #fff; }
+  .resume .experience .date {
+    font-size: .9em;
+    font-weight: 400;
+    color: #747474;
+    padding-top: 1.5px; }
+  .resume .experience ul {
+    font-weight: 300;
+    color: #787878;
+    margin: 0;
+    font-size: .9em;
+    padding-left: 30px; }
   .resume .course-work {
     margin-bottom: 20px; }
     .resume .course-work h3 {
       margin: 4px 0; }
   .resume section {
-    padding: 1px 5px;
-    border-left: 4px solid #dadada; }
+    padding: 1px 5px; }
   .resume .work-title {
     margin-bottom: 5px;
     width: 100%;
-    overflow: auto; }
+    overflow: auto;
+    margin-top: 15px; }
+    .resume .work-title.first {
+      margin-top: 0; }
   .resume .download {
     display: inline-block;
     height: 40px;
@@ -223,15 +233,16 @@ footer.contact {
     font-weight: 400;
     line-height: 40px;
     font-size: 1.7em;
-    margin-bottom: 10px; }
+    margin-bottom: 5px; }
   .resume h3 {
-    font-size: 1.1em;
+    font-size: 1em;
     font-weight: 400;
     color: #34495E; }
   .resume p {
     font-weight: 300;
     color: #787878;
-    margin-left: 5px; }
+    font-size: .9em;
+    margin: 0 5px; }
 
 .resume-header {
   height: 40px;
@@ -285,15 +296,15 @@ footer.contact {
     width: 100%;
     text-align: center;
     list-style-type: none;
-    padding: 0 10px;
-    margin: 0 auto; }
+    padding: 0;
+    margin: 0; }
   .contact li {
     float: left;
-    margin-right: 15px; }
+    margin-right: 10px; }
   .contact li img {
-    height: 50px;
+    height: 35px;
     width: auto;
-    opacity: .5;
+    opacity: .4;
     transition: opacity 300ms ease-in; }
     .contact li img:hover {
       opacity: .75;
@@ -301,7 +312,7 @@ footer.contact {
 
 .work {
   height: auto;
-  background-color: #F3F3F3;
+  background-color: #fff;
   padding: 0;
   margin-bottom: 10px; }
 
@@ -336,7 +347,7 @@ footer.contact {
     text-align: center;
     color: #8D8D8D;
     font-weight: 300;
-    border-bottom: 1px solid #f3f3f3;
+    border-bottom: 1px solid white;
     padding-bottom: 10px; }
     .visuals ul li {
       display: inline;
@@ -357,9 +368,9 @@ footer.contact {
     text-align: center;
     height: auto;
     overflow: auto;
-    background-color: #f8f8f8;
+    background-color: white;
     border-radius: 7px;
-    border: 1.5px solid #F3F3F3;
+    border: 1.5px solid #fff;
     color: #8D8D8D;
     padding: 10px; }
     .visuals .wip:last-child {
@@ -372,14 +383,14 @@ footer.contact {
   .visual-container .element {
     flex-grow: 1;
     text-align: center;
-    height: 200px;
-    width: 50%;
+    max-height: 100px;
+    width: 25%;
     padding: 5px; }
     .visual-container .element img {
       height: 100%;
       width: auto; }
     .visual-container .element.full {
-      width: 100%; }
+      width: 50%; }
     .visual-container .element.other {
       height: 300px; }
 

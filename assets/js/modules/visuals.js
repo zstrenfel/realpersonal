@@ -11,7 +11,7 @@ class Visuals extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      active: 'Logos',
+      active: 'Other',
       loading: false
     }
   }

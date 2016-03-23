@@ -20,7 +20,9 @@
     }
   ],
   "visuals" : {
-    "Logos": [
+    "UI/UX": [
+    ],
+    "Other": [
       {
       "title": "Summer Edge",
       "url": "./imgs/projectImgs/logos/edge.jpg",
@@ -51,31 +53,25 @@
       "url": "./imgs/projectImgs/logos/pd2.jpg",
       "class": "full"
       },
-    ],
-    "Print": [
-    ],
-    "UI/UX": [
-    ],
-    "Other": [
       {
       "title": "Bear",
       "url": "./imgs/projectImgs/other/bear.jpg",
-      "class": "other"
+      "class": null
       },
       {
       "title": "Geofilter",
       "url": "./imgs/projectImgs/other/geo.png",
-      "class": "other"
+      "class": null
       },
       {
       "title": "Racoon",
       "url": "./imgs/projectImgs/other/racoon.jpg",
-      "class":"other"
+      "class":null
       },
       {
       "title": "Spaceman",
       "url": "./imgs/projectImgs/other/space.jpg",
-      "class": "other"
+      "class": null
       }
     ]
   }

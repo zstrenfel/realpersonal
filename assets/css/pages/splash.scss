@@ -56,19 +56,19 @@
       width: 100%;
       text-align: center;
       list-style-type: none;
-      padding: 0 10px;;
-      margin: 0 auto;
+      padding: 0;
+      margin: 0;
     }
 
     li {
       float: left;
-      margin-right: 15px;
+      margin-right: 10px;
     }
 
     li img {
-      height: 50px;
+      height: 35px;
       width: auto;
-      opacity: .5;
+      opacity: .4;
       transition: opacity 300ms ease-in;
 
       &:hover {
