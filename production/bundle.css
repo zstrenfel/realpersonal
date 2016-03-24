@@ -13,6 +13,10 @@ html, body {
   color: #454545;
   vertical-align: baseline;
   background-color: #fff; }
+  @media screen and (max-width: 480px) {
+    html, body {
+      font-size: 80%;
+      padding: 5px; } }
 
 h1, h2, h3, h4, h5 {
   font-family: "Open Sans", Helvetica, sans-serif;
@@ -58,6 +62,14 @@ p {
   display: block; }
   .section:last-child, .resume:last-child, .splash:last-child, .work:last-child {
     margin-right: 0; }
+  @media screen and (max-width: 480px) {
+    .section, .resume, .splash, .work {
+      float: left;
+      display: block;
+      margin-right: 7.42297%;
+      width: 100%; }
+      .section:last-child, .resume:last-child, .splash:last-child, .work:last-child {
+        margin-right: 0; } }
 
 .half-column {
   float: left;
@@ -66,6 +78,14 @@ p {
   width: 48.82117%; }
   .half-column:last-child {
     margin-right: 0; }
+  @media screen and (max-width: 480px) {
+    .half-column {
+      float: left;
+      display: block;
+      margin-right: 7.42297%;
+      width: 100%; }
+      .half-column:last-child {
+        margin-right: 0; } }
 
 .single {
   flex-grow: 1;
@@ -123,6 +143,17 @@ footer.contact {
     line-height: 45px;
     text-align: center;
     font-size: .8em; }
+  @media screen and (max-width: 480px) {
+    footer.contact {
+      height: 120px; }
+      footer.contact ul {
+        padding: 35px 0 0; }
+      footer.contact li img {
+        width: 25px;
+        height: auto; }
+      footer.contact .wip {
+        height: 30px;
+        line-height: 35px; } }
 
 @keyframes rise {
   from {
@@ -135,6 +166,9 @@ footer.contact {
 .rise {
   animation-name: rise;
   animation-duration: 1.5s; }
+  @media screen and (max-width: 480px) {
+    .rise {
+      animation: none; } }
 
 @keyframes slide-right {
   from {
@@ -181,6 +215,10 @@ footer.contact {
     .top-nav a:hover {
       color: #5a5a5a;
       font-weight: 400; }
+  @media screen and (max-width: 480px) {
+    .top-nav {
+      height: 35px;
+      font-size: 1.1em; } }
 
 .resume-section, .resume .experience, .resume .skills, .resume .course-work {
   float: left;
@@ -188,13 +226,28 @@ footer.contact {
   margin-right: 2.35765%;
   width: 82.94039%;
   margin-left: 8.5298%;
-  padding: 10px; }
+  padding: 0 10px; }
   .resume-section:last-child, .resume .experience:last-child, .resume .skills:last-child, .resume .course-work:last-child {
     margin-right: 0; }
+  @media screen and (max-width: 480px) {
+    .resume-section, .resume .experience, .resume .skills, .resume .course-work {
+      float: left;
+      display: block;
+      margin-right: 7.42297%;
+      width: 100%;
+      margin-left: 0%; }
+      .resume-section:last-child, .resume .experience:last-child, .resume .skills:last-child, .resume .course-work:last-child {
+        margin-right: 0; } }
 
 .resume {
   height: auto;
-  background-color: #fff; }
+  background-color: #fff;
+  padding: 0; }
+  .resume .section-title {
+    margin: 0;
+    padding: 0; }
+    .resume .section-title h1 {
+      margin: 0; }
   .resume .experience .date {
     font-size: .9em;
     font-weight: 400;
@@ -206,6 +259,9 @@ footer.contact {
     margin: 0;
     font-size: .9em;
     padding-left: 30px; }
+  @media screen and (max-width: 480px) {
+    .resume .experience ul {
+      padding-left: 20px; } }
   .resume .course-work {
     margin-bottom: 20px; }
     .resume .course-work h3 {
@@ -219,6 +275,12 @@ footer.contact {
     margin-top: 15px; }
     .resume .work-title.first {
       margin-top: 0; }
+  @media screen and (max-width: 480px) {
+    .resume .position, .resume .date {
+      float: left;
+      font-size: .9em; }
+    .resume .date {
+      font-size: .8em; } }
   .resume .download {
     display: inline-block;
     height: 40px;
@@ -234,10 +296,19 @@ footer.contact {
     line-height: 40px;
     font-size: 1.7em;
     margin-bottom: 5px; }
+    @media screen and (max-width: 480px) {
+      .resume h1 {
+        margin-bottom: 0;
+        line-height: 20px;
+        margin-top: 10px;
+        font-size: 1.4em; } }
   .resume h3 {
     font-size: 1em;
     font-weight: 400;
     color: #34495E; }
+    @media screen and (max-width: 480px) {
+      .resume h3 {
+        font-size: .9em; } }
   .resume p {
     font-weight: 300;
     color: #787878;
@@ -283,6 +354,29 @@ footer.contact {
     margin-bottom: 10px;
     color: #929292;
     font-weight: 300; }
+  @media screen and (max-width: 480px) {
+    .splash {
+      overflow: auto;
+      height: auto; }
+      .splash .text, .splash .image {
+        position: relative;
+        top: auto;
+        transform: none; }
+      .splash .text {
+        padding: 0 10px 10px; }
+      .splash .contact {
+        margin-top: 15px;
+        text-align: center;
+        display: none; }
+        .splash .contact li {
+          float: none;
+          display: inline-block; }
+      .splash .image-container {
+        height: auto;
+        overflow: auto; }
+        .splash .image-container img {
+          height: 300px;
+          width: auto; } }
 
 .contact, footer.contact {
   float: left;
@@ -393,6 +487,10 @@ footer.contact {
       width: 50%; }
     .visual-container .element.other {
       height: 300px; }
+  @media screen and (max-width: 480px) {
+    .visual-container .element {
+      height: 75px;
+      width: 33%; } }
 
 .project {
   float: left;
@@ -417,6 +515,12 @@ footer.contact {
     font-style: italic;
     font-size: .8em;
     color: #8D8D8D; }
+  @media screen and (max-width: 480px) {
+    .project {
+      height: auto;
+      overflow: auto; }
+      .project aside {
+        font-size: 1em; } }
 
 .project-img, .project.right .project-img, .project.left .project-img {
   overflow: hidden;
@@ -435,6 +539,9 @@ footer.contact {
       color: #D2527F; }
       .project-info h1 a:hover, .project.right .project-info h1 a:hover, .project.left .project-info h1 a:hover {
         color: #bf3263; }
+  @media screen and (max-width: 480px) {
+    .project-info, .project.right .project-info, .project.left .project-info {
+      padding: 10px; } }
 
 .project.right {
   display: block;
@@ -457,6 +564,9 @@ footer.contact {
     width: 48.82117%; }
     .project.right .project-info:last-child {
       margin-left: 0; }
+  @media screen and (max-width: 480px) {
+    .project.right {
+      padding: 0; } }
 
 .project.left .project-img {
   float: left;
@@ -473,3 +583,21 @@ footer.contact {
   width: 48.82117%; }
   .project.left .project-info:last-child {
     margin-right: 0; }
+
+@media screen and (max-width: 480px) {
+  .project.left .project-img, .project.right .project-img {
+    float: left;
+    display: block;
+    margin-right: 7.42297%;
+    width: 100%;
+    padding: 0; }
+    .project.left .project-img:last-child, .project.right .project-img:last-child {
+      margin-right: 0; }
+  .project.left .project-info, .project.right .project-info {
+    float: left;
+    display: block;
+    margin-right: 7.42297%;
+    width: 100%;
+    overflow: auto; }
+    .project.left .project-info:last-child, .project.right .project-info:last-child {
+      margin-right: 0; } }

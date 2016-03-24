@@ -99,6 +99,12 @@
     }
   }
 
+  @include media($mobile) {
+    .element {
+      height: 75px;
+      width: 33%;
+    }
+  }
 }
 
 
@@ -125,23 +131,30 @@
     font-size: .8em;
     color: $disabled-text;
   }
+
+  @include media($mobile) {
+    height: auto;
+    overflow: auto;
+
+    aside {
+      font-size: 1em;
+    }
+  }
 }
 
 .project-img {
-    overflow: hidden;
-    padding: 10px;
-    text-align: center;
-    img {
-      height: auto;
-      width: 83%;
-    }
+  overflow: hidden;
+  padding: 10px;
+  text-align: center;
+  img {
+    height: auto;
+    width: 83%;
+  }
 }
 
 .project-info {
   padding: 20px;
   height: 100%;
-
-
   h1 {
     font-weight: 400;
     a {
@@ -153,8 +166,12 @@
     }
   }
 
-
+  @include media($mobile) {
+    padding: 10px;
+  }
 }
+
+
 
 .project.right {
   @include row($direction: RTL);
@@ -166,10 +183,13 @@
   .project-info {
     @include span-columns(6);
     @extend .project-info
-
   }
 
+  @include media($mobile) {
+    padding: 0;
+  }
 }
+
 .project.left {
   @include reset-layout-direction;
   .project-img {
@@ -180,7 +200,24 @@
     @include span-columns(6);
     @extend .project-info
   }
+
+  @include media($mobile) {
+  }
 }
 
+@include media($mobile) {
+  .project.left, .project.right {
+    .project-img {
+      @include span-columns(4);
+      @extend .project-img;
+      padding: 0;
+    }
+    .project-info {
+      @include span-columns(4);
+      @extend .project-info;
+      overflow: auto;
+    }
+  }
+}
 
 

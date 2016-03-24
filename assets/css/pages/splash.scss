@@ -25,7 +25,6 @@
       opacity: .9;
     }
   }
-
   h1 {
     font-size: 3em;
     font-weight: 400;
@@ -45,6 +44,41 @@
     margin-bottom: 10px;
     color: lighten($body-font, 10%);
     font-weight: 300;
+  }
+
+  @include media($mobile) {
+    overflow: auto;
+    height: auto;
+
+    .text, .image {
+      position: relative;
+      top: auto;
+      transform: none;
+    }
+
+    .text {
+      padding: 0 10px 10px;
+    }
+
+    .contact {
+      margin-top: 15px;
+      text-align: center;
+      display: none;
+
+      li {
+        float: none;
+        display: inline-block;
+      }
+    }
+    .image-container {
+      height: auto;
+      overflow: auto;
+
+      img {
+        height: 300px;
+        width: auto;
+      }
+    }
   }
 }
 

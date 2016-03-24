@@ -7,6 +7,11 @@ html, body {
   color: $secondary-font;
   vertical-align: baseline;
   background-color: $background-grey;
+
+  @include media($mobile) {
+    font-size: 80%;
+    padding: 5px;
+  }
 }
 
 
@@ -48,10 +53,17 @@ p {
   overflow: hidden;
   display: block;
 
+  @include media($mobile) {
+    @include span-columns(4);
+  }
 }
 
 .half-column {
   @include span-columns(6);
+
+  @include media($mobile) {
+    @include span-columns(4);
+  }
 }
 
 
@@ -128,5 +140,22 @@ footer.contact {
     line-height: 45px;
     text-align: center;
     font-size: .8em;
+  }
+
+  @include media($mobile) {
+    height: 120px;
+
+    ul {
+      padding: 35px 0 0;
+    }
+    li img {
+      width: 25px;
+      height: auto;
+    }
+
+    .wip {
+      height: 30px;
+      line-height: 35px;
+    }
   }
 }
