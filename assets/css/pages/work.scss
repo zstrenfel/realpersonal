@@ -21,6 +21,10 @@
     font-size: 2em;
     font-weight: 300;
     color: lighten($disabled-text, 20%);
+
+    @include media($mobile) {
+      font-weight: 400;
+    }
   }
 
 }
@@ -41,6 +45,10 @@
     font-weight: 300;
     border-bottom: 1px solid darken($background-grey, 0%);
     padding-bottom: 10px;
+
+    @include media($mobile) {
+      font-weight: 400;
+    }
 
     li {
       display: inline;
@@ -124,6 +132,9 @@
     font-size: 1em;
     color: $body-font;
     font-weight: 300;
+    @include media($mobile) {
+      font-weight: 400;
+    }
   }
 
   aside {

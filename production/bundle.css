@@ -16,7 +16,7 @@ html, body {
   @media screen and (max-width: 480px) {
     html, body {
       font-size: 80%;
-      padding: 5px; } }
+      padding: 0 5px; } }
 
 h1, h2, h3, h4, h5 {
   font-family: "Open Sans", Helvetica, sans-serif;
@@ -218,7 +218,10 @@ footer.contact {
   @media screen and (max-width: 480px) {
     .top-nav {
       height: 35px;
-      font-size: 1.1em; } }
+      font-size: 1.1em; }
+      .top-nav a {
+        font-weight: 400;
+        color: #747474; } }
 
 .resume-section, .resume .experience, .resume .skills, .resume .course-work {
   float: left;
@@ -262,6 +265,9 @@ footer.contact {
       margin: 0;
       font-size: .9em;
       padding-left: 30px; }
+      @media screen and (max-width: 480px) {
+        .resume .experience ul {
+          font-weight: 400; } }
     @media screen and (max-width: 480px) {
       .resume .experience ul {
         padding-left: 20px; } }
@@ -317,6 +323,9 @@ footer.contact {
     color: #787878;
     font-size: .9em;
     margin: 0 5px; }
+    @media screen and (max-width: 480px) {
+      .resume p {
+        font-weight: 400; } }
 
 .resume-header {
   height: 40px;
@@ -352,11 +361,18 @@ footer.contact {
     color: #929292;
     font-weight: 300;
     line-height: 1em; }
+    @media screen and (max-width: 480px) {
+      .splash h2 {
+        font-weight: 400; } }
   .splash p {
     font-size: 1.2em;
     margin-bottom: 10px;
     color: #929292;
     font-weight: 300; }
+    @media screen and (max-width: 480px) {
+      .splash p {
+        font-weight: 400;
+        color: #787878; } }
   @media screen and (max-width: 480px) {
     .splash {
       overflow: auto;
@@ -430,6 +446,9 @@ footer.contact {
     font-size: 2em;
     font-weight: 300;
     color: silver; }
+    @media screen and (max-width: 480px) {
+      .section-title h1 {
+        font-weight: 400; } }
 
 .visuals {
   margin-bottom: 30px;
@@ -446,6 +465,9 @@ footer.contact {
     font-weight: 300;
     border-bottom: 1px solid white;
     padding-bottom: 10px; }
+    @media screen and (max-width: 480px) {
+      .visuals ul {
+        font-weight: 400; } }
     .visuals ul li {
       display: inline;
       margin: 0 30px;
@@ -514,6 +536,9 @@ footer.contact {
     font-size: 1em;
     color: #787878;
     font-weight: 300; }
+    @media screen and (max-width: 480px) {
+      .project p {
+        font-weight: 400; } }
   .project aside {
     font-style: italic;
     font-size: .8em;

@@ -33,6 +33,11 @@
   @include media($mobile) {
     height: 35px;
     font-size: 1.1em;
+
+    a {
+      font-weight: 400;
+      color: darken($disabled-text, 10%);
+    }
   }
 
 }
