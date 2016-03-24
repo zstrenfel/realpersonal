@@ -10,9 +10,7 @@ import randomColor from 'randomcolor'
 class Resume extends React.Component {
   render() {
     return (
-      <div className="resume">
-        <div className="section-title" id="resume"><h1>Resume</h1></div>
-
+      <div className="resume" id="resume">
         <div className="experience">
           <h1> Experience </h1>
           <section>

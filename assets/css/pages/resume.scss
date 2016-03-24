@@ -27,10 +27,10 @@
   }
 
   .experience {
+    padding-top: 30px;
+    border-top: 1px solid $line-gray;
     @extend .resume-section;
 
-    .position {
-    }
     .date {
       font-size: .9em;
       font-weight: 400;
