@@ -5,7 +5,7 @@ import classnames from 'classnames'
 
 class Project extends React.Component {
   render() {
-    var classname = classnames(this.props.data.title, 'project', this.props.align);
+    let classname = classnames(this.props.data.title, 'project', this.props.align, {wip: this.props.data.wip});
     return (
           <div className={classname}>
             <div className="project-img">

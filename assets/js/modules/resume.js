@@ -56,7 +56,7 @@ class Resume extends React.Component {
           </section>
           <section>
             <h3> Exposure </h3>
-            <p> Node.js, Express.js, SQL, React Router, Redux, Webpack, Google Chrome Extensions API, Wordpress</p>
+            <p> Node.js, Express.js, SQL, React Router, Redux, Webpack, Google Chrome Extensions API, Wordpress, RethinkDB</p>
           </section>
         </div>
         <div className="course-work">

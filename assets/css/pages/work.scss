@@ -151,6 +151,26 @@
       font-size: 1em;
     }
   }
+
+  &.wip {
+    opacity: .7;
+    transition: opacity 500ms ease-in;
+
+    &:hover {
+      opacity: 1;
+    }
+    .project-img {
+      display: hidden;
+    }
+
+    .project-info {
+      @include span-columns(12);
+    }
+
+    aside:before {
+      content: 'This project is still a work-in-progress.'
+    }
+  }
 }
 
 .project-img {

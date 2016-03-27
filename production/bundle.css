@@ -15,7 +15,6 @@ html, body {
   background-color: #fff; }
   @media screen and (max-width: 480px) {
     html, body {
-      font-size: 80%;
       padding: 0 5px; } }
 
 h1, h2, h3, h4, h5 {
@@ -549,6 +548,22 @@ footer.contact {
       overflow: auto; }
       .project aside {
         font-size: 1em; } }
+  .project.wip {
+    opacity: .7;
+    transition: opacity 500ms ease-in; }
+    .project.wip:hover {
+      opacity: 1; }
+    .project.wip .project-img {
+      display: hidden; }
+    .project.wip .project-info {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%; }
+      .project.wip .project-info:last-child {
+        margin-right: 0; }
+    .project.wip aside:before {
+      content: 'This project is still a work-in-progress.'; }
 
 .project-img, .project.right .project-img, .project.left .project-img {
   overflow: hidden;
