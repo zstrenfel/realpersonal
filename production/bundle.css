@@ -152,7 +152,8 @@ footer.contact {
         height: auto; }
       footer.contact .wip {
         height: 30px;
-        line-height: 35px; } }
+        font-size: .5em;
+        line-height: 30px; } }
 
 @keyframes rise {
   from {
@@ -216,8 +217,12 @@ footer.contact {
       font-weight: 400; }
   @media screen and (max-width: 480px) {
     .top-nav {
-      height: 35px;
-      font-size: 1.1em; }
+      height: 35px; }
+      .top-nav ul {
+        margin: 5px 0 0;
+        padding: 0; }
+      .top-nav li {
+        margin: 0 10px; }
       .top-nav a {
         font-weight: 400;
         color: #747474; } }
@@ -306,9 +311,8 @@ footer.contact {
     margin-bottom: 5px; }
     @media screen and (max-width: 480px) {
       .resume h1 {
-        margin-bottom: 0;
         line-height: 20px;
-        margin-top: 10px;
+        margin-top: 15px;
         font-size: 1.4em; } }
   .resume h3 {
     font-size: 1em;
