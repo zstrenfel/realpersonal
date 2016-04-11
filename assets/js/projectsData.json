@@ -6,7 +6,7 @@
       "title_url": "http://wordlike-playground.herokuapp.com/",
       "tags": "UI/UX, FrontEnd, BackEnd",
       "imgPath": "./imgs/projectImgs/playground.png",
-      "body":"Node, Express, and React web application designed to gameify Quill's Wordlike synonym game by enabling a two player mode. Winner of the Quill Prize and third place at Big Think Hackathon 2016.",
+      "body":"Node, Express, and React web application using Socket.IO to gameify Quill's Wordlike synonym game by enabling a two player mode. Winner of the Quill Prize and third place at Big Think Hackathon 2016.",
       "url": "https://github.com/zstrenfel/playground"
     },
     {
