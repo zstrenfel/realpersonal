@@ -34,6 +34,7 @@ p {
 
 .container {
   @include outer-container(1000px);
+  padding: 0 15px;
   background-color: #fff;
   font-family: inherit;
   overflow: auto;

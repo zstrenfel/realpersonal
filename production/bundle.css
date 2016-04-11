@@ -36,6 +36,7 @@ p {
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
+  padding: 0 15px;
   background-color: #fff;
   font-family: inherit;
   overflow: auto; }
