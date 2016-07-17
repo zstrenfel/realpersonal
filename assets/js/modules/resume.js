@@ -14,7 +14,18 @@ class Resume extends React.Component {
         <div className="experience">
           <h1> Experience </h1>
           <section>
-            <div className="work-title first">
+             <div className="work-title first">
+              <span className="left position"><h3>WalletIQ Software Engineering Intern</h3></span>
+              <span className="right date">June 2016 - Ongoing</span>
+            </div>
+            <ul>
+              <li>Took ownership of the client-side interface, and developed it through multiple design iterations.</li>
+              <li>Utilized OOP principles to modularize front-end and existing stylesheets by using SASS.</li>
+              <li>Contributed to product planning and visual design.</li>
+            </ul>
+          </section>
+          <section>
+            <div className="work-title">
               <span className="left position"><h3>Summer Sessions/Berkeley Study Abroad Summer Front End Intern</h3></span>
               <span className="right date">May 2015 - August 2015</span>
             </div>
@@ -48,15 +59,15 @@ class Resume extends React.Component {
           <h1> Skills </h1>
           <section>
             <h3> Experienced </h3>
-            <p> HTML, CSS (SASS), Adobe Photoshop, Adobe Illustrator </p>
+            <p> React, HTML, CSS (SASS), Git, Adobe Photoshop, Adobe Illustrator </p>
           </section>
            <section>
             <h3> Proficient </h3>
-            <p> Python, Java, Javascript, JQuery, React.js, Github, Gulp, Ruby on Rails, Sketch, Bootstrap</p>
+            <p> Javascript, React Router, Python, Java, Express, JQuery, Webpack, Gulp, Ruby on Rails, Sketch, Bootstrap</p>
           </section>
           <section>
             <h3> Exposure </h3>
-            <p> Node.js, Express.js, SQL, React Router, Redux, Webpack, Google Chrome Extensions API, Wordpress, RethinkDB</p>
+            <p> SQL, Redux, Flux, Google Chrome Extensions API, Wordpress, RethinkDB</p>
           </section>
         </div>
         <div className="course-work">

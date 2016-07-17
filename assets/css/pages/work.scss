@@ -177,7 +177,7 @@
   }
 }
 
-.project-img {
+@mixin project-img {
   overflow: hidden;
   padding: 10px;
   text-align: center;
@@ -187,7 +187,11 @@
   }
 }
 
-.project-info {
+.project-img {
+  @include project-img;
+}
+
+@mixin project-info {
   padding: 20px;
   height: 100%;
   h1 {
@@ -206,6 +210,9 @@
   }
 }
 
+.project-info {
+  @include project-info; 
+}
 
 
 .project.right {
@@ -213,11 +220,11 @@
   padding-left: 20px;
   .project-img {
     @include span-columns(6);
-    @extend .project-img;
+    @include project-img;
   }
   .project-info {
     @include span-columns(6);
-    @extend .project-info
+    @include project-info;
   }
 
   @include media($mobile) {
@@ -229,11 +236,11 @@
   @include reset-layout-direction;
   .project-img {
     @include span-columns(6);
-    @extend .project-img;
+    @include project-img;
   }
   .project-info {
     @include span-columns(6);
-    @extend .project-info
+    @include project-info;
   }
 
   @include media($mobile) {
@@ -244,12 +251,13 @@
   .project.left, .project.right {
     .project-img {
       @include span-columns(4);
-      @extend .project-img;
+      @include project-img;
+
       padding: 0;
     }
     .project-info {
       @include span-columns(4);
-      @extend .project-info;
+      @include project-info;
       overflow: auto;
     }
   }

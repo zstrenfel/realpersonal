@@ -73,6 +73,7 @@
       text-align: center;
       display: none;
 
+
       li {
         float: none;
         display: inline-block;
@@ -93,6 +94,7 @@
 .contact {
     @include span-columns(12);
     overflow: auto;
+
 
     ul {
       width: 100%;

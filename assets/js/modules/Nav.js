@@ -13,9 +13,9 @@ class Nav extends React.Component {
       <div className="top-nav">
         <ul>
           <li><a onClick={this.navigateTo}>About</a></li>
+          <li><a onClick={this.navigateTo}>Resume</a></li>
           <li><a onClick={this.navigateTo}>Projects</a></li>
           <li><a onClick={this.navigateTo}>Visuals</a></li>
-          <li><a onClick={this.navigateTo}>Resume</a></li>
         </ul>
       </div>
     )

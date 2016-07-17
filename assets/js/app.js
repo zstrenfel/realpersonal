@@ -12,8 +12,8 @@ class App extends React.Component {
       <div className="content">
         <Nav />
         <Splash />
-        <Work />
         <Resume />
+        <Work />
         <Contact />
       </div>
     )

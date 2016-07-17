@@ -26,16 +26,6 @@
       "imgPath": "./imgs/projectImgs/planit.png",
       "body":"A Ruby on Rails and Javascript (JQuery) web application designed to help users coordinate between friends and plan a travel itinerary. Created for CS169, Software Engineering; hosted on Heroku and uses the Google Maps API.",
       "url": "https://github.com/zstrenfel/planit"
-    },
-    {
-      "id": 3,
-      "title": "CookPad",
-      "title_url": null,
-      "tags": "UI/UX, FrontEnd, BackEnd",
-      "imgPath": "./imgs/projectImgs/404.png",
-      "body":"A Node.js, Express, and React web application enabling the user to write recipes and browse the most popular recipes calculated by user votes.",
-      "url": "https://github.com/zstrenfel/cookgit",
-      "wip": true
     }
   ],
   "visuals" : {

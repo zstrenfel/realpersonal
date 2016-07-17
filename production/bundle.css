@@ -303,8 +303,7 @@ footer.contact {
     font-size: .9em;
     color: #454545;
     text-align: center;
-    border-bottom: 1px solid #f3f3f3;
-    border-top: 1px solid #f3f3f3; }
+    margin-bottom: 25px; }
   .resume h1 {
     font-weight: 400;
     line-height: 40px;
@@ -573,25 +572,25 @@ footer.contact {
     .project.wip aside:before {
       content: 'This project is still a work-in-progress.'; }
 
-.project-img, .project.right .project-img, .project.left .project-img {
+.project-img {
   overflow: hidden;
   padding: 10px;
   text-align: center; }
-  .project-img img, .project.right .project-img img, .project.left .project-img img {
+  .project-img img {
     height: auto;
     width: 83%; }
 
-.project-info, .project.right .project-info, .project.left .project-info {
+.project-info {
   padding: 20px;
   height: 100%; }
-  .project-info h1, .project.right .project-info h1, .project.left .project-info h1 {
+  .project-info h1 {
     font-weight: 400; }
-    .project-info h1 a, .project.right .project-info h1 a, .project.left .project-info h1 a {
+    .project-info h1 a {
       color: #D2527F; }
-      .project-info h1 a:hover, .project.right .project-info h1 a:hover, .project.left .project-info h1 a:hover {
+      .project-info h1 a:hover {
         color: #bf3263; }
   @media screen and (max-width: 480px) {
-    .project-info, .project.right .project-info, .project.left .project-info {
+    .project-info {
       padding: 10px; } }
 
 .project.right {
@@ -605,16 +604,33 @@ footer.contact {
     float: right;
     display: block;
     margin-left: 2.35765%;
-    width: 48.82117%; }
+    width: 48.82117%;
+    overflow: hidden;
+    padding: 10px;
+    text-align: center; }
     .project.right .project-img:last-child {
       margin-left: 0; }
+    .project.right .project-img img {
+      height: auto;
+      width: 83%; }
   .project.right .project-info {
     float: right;
     display: block;
     margin-left: 2.35765%;
-    width: 48.82117%; }
+    width: 48.82117%;
+    padding: 20px;
+    height: 100%; }
     .project.right .project-info:last-child {
       margin-left: 0; }
+    .project.right .project-info h1 {
+      font-weight: 400; }
+      .project.right .project-info h1 a {
+        color: #D2527F; }
+        .project.right .project-info h1 a:hover {
+          color: #bf3263; }
+    @media screen and (max-width: 480px) {
+      .project.right .project-info {
+        padding: 10px; } }
   @media screen and (max-width: 480px) {
     .project.right {
       padding: 0; } }
@@ -623,17 +639,34 @@ footer.contact {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 48.82117%; }
+  width: 48.82117%;
+  overflow: hidden;
+  padding: 10px;
+  text-align: center; }
   .project.left .project-img:last-child {
     margin-right: 0; }
+  .project.left .project-img img {
+    height: auto;
+    width: 83%; }
 
 .project.left .project-info {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 48.82117%; }
+  width: 48.82117%;
+  padding: 20px;
+  height: 100%; }
   .project.left .project-info:last-child {
     margin-right: 0; }
+  .project.left .project-info h1 {
+    font-weight: 400; }
+    .project.left .project-info h1 a {
+      color: #D2527F; }
+      .project.left .project-info h1 a:hover {
+        color: #bf3263; }
+  @media screen and (max-width: 480px) {
+    .project.left .project-info {
+      padding: 10px; } }
 
 @media screen and (max-width: 480px) {
   .project.left .project-img, .project.right .project-img {
@@ -641,14 +674,31 @@ footer.contact {
     display: block;
     margin-right: 7.42297%;
     width: 100%;
+    overflow: hidden;
+    padding: 10px;
+    text-align: center;
     padding: 0; }
     .project.left .project-img:last-child, .project.right .project-img:last-child {
       margin-right: 0; }
+    .project.left .project-img img, .project.right .project-img img {
+      height: auto;
+      width: 83%; }
   .project.left .project-info, .project.right .project-info {
     float: left;
     display: block;
     margin-right: 7.42297%;
     width: 100%;
+    padding: 20px;
+    height: 100%;
     overflow: auto; }
     .project.left .project-info:last-child, .project.right .project-info:last-child {
-      margin-right: 0; } }
+      margin-right: 0; }
+    .project.left .project-info h1, .project.right .project-info h1 {
+      font-weight: 400; }
+      .project.left .project-info h1 a, .project.right .project-info h1 a {
+        color: #D2527F; }
+        .project.left .project-info h1 a:hover, .project.right .project-info h1 a:hover {
+          color: #bf3263; } }
+  @media screen and (max-width: 480px) and (max-width: 480px) {
+    .project.left .project-info, .project.right .project-info {
+      padding: 10px; } }
