@@ -15,7 +15,6 @@ class Nav extends React.Component {
           <li><a onClick={this.navigateTo}>About</a></li>
           <li><a onClick={this.navigateTo}>Resume</a></li>
           <li><a onClick={this.navigateTo}>Projects</a></li>
-          <li><a onClick={this.navigateTo}>Visuals</a></li>
         </ul>
       </div>
     )

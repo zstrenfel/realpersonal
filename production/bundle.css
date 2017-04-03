@@ -580,6 +580,17 @@ footer.contact {
     height: auto;
     width: 83%; }
 
+.Lotus .project-img {
+  overflow: hidden;
+  padding: 10px;
+  text-align: center; }
+  .Lotus .project-img img {
+    height: auto;
+    width: 83%; }
+  .Lotus .project-img img {
+    height: auto !important;
+    width: 30% !important; }
+
 .project-info {
   padding: 20px;
   height: 100%; }

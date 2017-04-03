@@ -1,7 +1,16 @@
 {
   "projects": [
-   {
+    {
       "id": 0,
+      "title": "Lotus Meditation Timer",
+      "title_url": "",
+      "tags": "UI/UX, iOS",
+      "imgPath": "./imgs/projectImgs/meditation.png",
+      "body":"iOS application coded in Swift; a meditation application that allows the user to store and create multiple timers locally (through core data), and includes segmented timers with countdown, meditation, and cooldown sections, and interval/alert functionality. App is currently in beta through TestFlight",
+      "url": "https://github.com/zstrenfel/meditation"
+    },
+   {
+      "id": 1,
       "title": "WordLike Playground",
       "title_url": "http://wordlike-playground.herokuapp.com/",
       "tags": "UI/UX, FrontEnd, BackEnd",
@@ -10,7 +19,7 @@
       "url": "https://github.com/zstrenfel/playground"
     },
     {
-      "id": 1,
+      "id": 2,
       "title": "OkayVacay",
       "title_url": "http://okayvacay-client.herokuapp.com/",
       "tags": "UI/UX, FrontEnd",
@@ -19,7 +28,7 @@
       "url": "https://github.com/zstrenfel/VacationElation"
     },
     {
-      "id": 2,
+      "id": 3,
       "title": "Planit",
       "title_url": "http://planit-169.herokuapp.com/",
       "tags": "UI/UX, FrontEnd, BackEnd",

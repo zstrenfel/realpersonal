@@ -191,6 +191,15 @@
   @include project-img;
 }
 
+.Lotus .project-img {
+  @include project-img
+
+  img {
+    height: auto !important; 
+    width: 30% !important;
+  }
+}
+
 @mixin project-info {
   padding: 20px;
   height: 100%;

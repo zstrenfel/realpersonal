@@ -16,10 +16,11 @@ class Resume extends React.Component {
           <section>
              <div className="work-title first">
               <span className="left position"><h3>WalletIQ Software Engineering Intern</h3></span>
-              <span className="right date">June 2016 - Ongoing</span>
+              <span className="right date">June 2016 - September 2016</span>
             </div>
             <ul>
               <li>Took ownership of the client-side interface, and developed it through multiple design iterations.</li>
+              <li>Worked extensively on developing out the mobile application for use with the web API.</li>
               <li>Utilized OOP principles to modularize front-end and existing stylesheets by using SASS.</li>
               <li>Contributed to product planning and visual design.</li>
             </ul>
@@ -44,22 +45,12 @@ class Resume extends React.Component {
               <li>Update website content weekly and organize/perform user testing across different department websites.</li>
             </ul>
           </section>
-          <section>
-            <div className="work-title">
-              <span className="left position"><h3><a href="http://innovativedesign.club/">Innovative Design</a> Marketing Officer/Club Member</h3></span>
-              <span className="right date">January 2012 - Ongoing</span>
-            </div>
-            <ul>
-              <li>Co-Marketing Officer for the Fall 2012 Semester - Responsible for organizing/creating recruiting strategy and relevant materials.</li>
-              <li>Active participant in the club since Spring 2012; worked with clients to create logos, brochures, websites, etc.</li>
-            </ul>
-          </section>
         </div>
         <div className="skills">
           <h1> Skills </h1>
           <section>
             <h3> Experienced </h3>
-            <p> React, HTML, CSS (SASS), Git, Adobe Photoshop, Adobe Illustrator </p>
+            <p> Swift, React, HTML, CSS (SASS), Git, Adobe Photoshop, Adobe Illustrator </p>
           </section>
            <section>
             <h3> Proficient </h3>

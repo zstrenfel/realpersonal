@@ -13,13 +13,13 @@ class Splash extends React.Component{
           <h2>Hello, I'm </h2>
            <h1>Zach Strenfel</h1>
            <p>
-              Currently a senior @ UC Berkeley studying Media Studies; sleeping enthusiest with an
-              interest in <b> Front-End Web Development</b>, <b>Design</b>, and <b>UI/UX</b>.
+              Alum of UC Berkeley; meditation enthusiest with an
+              interest in <b> Mobile </b> and <b>Front-End Web Development</b>, <b>Design</b>, and <b>UI/UX</b>.
           </p>
           <div className="contact">
             <ul>
               <li><a href="https://github.com/zstrenfel" target="_blank"><img src={'./imgs/icons/github-with-circle.svg'} /></a></li>
-              <li><a href="https://twitter.com/DuckyZach" target="_blank"><img src={'./imgs/icons/twitter-with-circle.svg'} /></a></li>
+              <li><a href="https://instagram.com/DuckyZach" target="_blank"><img src={'./imgs/icons/instagram.svg'} /></a></li>
               <li><a href="mailto:zwstrenfel@gmail.com" target="_blank"><img src={'./imgs/icons/closed-envelope-circle.svg'} /></a></li>
             </ul>
           </div>
