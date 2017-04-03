@@ -6,7 +6,7 @@
       "title_url": "",
       "tags": "UI/UX, iOS",
       "imgPath": "./imgs/projectImgs/meditation.png",
-      "body":"iOS application coded in Swift; a meditation application that allows the user to store and create multiple timers locally (through core data), and includes segmented timers with countdown, meditation, and cooldown sections, and interval/alert functionality. App is currently in beta through TestFlight",
+      "body":"iOS application coded in Swift; a meditation application that allows the user to store and create multiple timers locally (through CoreData), and includes segmented timers with countdown, meditation, and cooldown sections, and interval/alert functionality. App is currently in beta through TestFlight",
       "url": "https://github.com/zstrenfel/meditation"
     },
    {
