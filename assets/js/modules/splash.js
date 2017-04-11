@@ -19,7 +19,6 @@ class Splash extends React.Component{
           <div className="contact">
             <ul>
               <li><a href="https://github.com/zstrenfel" target="_blank"><img src={'./imgs/icons/github-with-circle.svg'} /></a></li>
-              <li><a href="https://instagram.com/DuckyZach" target="_blank"><img src={'./imgs/icons/instagram.svg'} /></a></li>
               <li><a href="mailto:zwstrenfel@gmail.com" target="_blank"><img src={'./imgs/icons/closed-envelope-circle.svg'} /></a></li>
             </ul>
           </div>
