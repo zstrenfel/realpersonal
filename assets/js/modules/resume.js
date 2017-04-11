@@ -19,7 +19,7 @@ class Resume extends React.Component {
               <span className="right date">June 2016 - September 2016</span>
             </div>
             <ul>
-              <li>Took ownership of the client-side interface, and developed it through multiple design iterations.</li>
+              <li>Took ownership of the client-side interface, and developed it through multiple design iterations in React.</li>
               <li>Worked extensively on developing out the mobile application for use with the web API.</li>
               <li>Utilized OOP principles to modularize front-end and existing stylesheets by using SASS.</li>
               <li>Contributed to product planning and visual design.</li>
