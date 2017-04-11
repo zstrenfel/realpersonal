@@ -19,10 +19,10 @@ class Resume extends React.Component {
               <span className="right date">June 2016 - September 2016</span>
             </div>
             <ul>
-              <li>Took ownership of the client-side interface, and developed it through multiple design iterations in React.</li>
-              <li>Worked extensively on developing out the mobile application for use with the web API.</li>
-              <li>Utilized OOP principles to modularize front-end and existing stylesheets by using SASS.</li>
-              <li>Contributed to product planning and visual design.</li>
+              <li>Lead development for the Honeydue iOS app in Swift (currently in the app store)</li>
+              <li>Owned new features of the WalletIQ web app using isomorphic React, Flux, node.js, Postgres.</li>
+              <li>Refactored front-end architecture by integrating SASS and OOP principles into existing stylesheets.</li>
+              <li>Contributed to product planning and iteration, visual design, sprint planning, and scrums</li>
             </ul>
           </section>
           <section>
